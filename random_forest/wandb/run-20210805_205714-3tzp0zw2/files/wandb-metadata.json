@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.11.0-25-generic-x86_64-with-glibc2.10",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-08-05T13:57:16.972165",
+    "startedAt": "2021-08-05T13:57:14.493888",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/rosidi/genre_classification/outputs/2021-08-05/20-46-36/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/mohrosidi/genre_classification.git",
+        "commit": "cf3111d8f2aa76f4a8ad90375dcc206694e916c4"
+    },
+    "email": "moh.rosidi2610@gmail.com",
+    "root": "/home/rosidi/genre_classification",
+    "host": "rosidi-VirtualBox",
+    "username": "rosidi",
+    "executable": "/home/rosidi/anaconda3/envs/mlflow-e38a66e56027dd29fa4c051140d2b45993a7fa9c/bin/python"
+}

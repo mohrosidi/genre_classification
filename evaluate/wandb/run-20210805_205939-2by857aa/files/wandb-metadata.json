@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.11.0-25-generic-x86_64-with-glibc2.10",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-08-05T13:59:40.975950",
+    "startedAt": "2021-08-05T13:59:39.073924",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "evaluate/run.py",
+    "git": {
+        "remote": "https://github.com/mohrosidi/genre_classification.git",
+        "commit": "cf3111d8f2aa76f4a8ad90375dcc206694e916c4"
+    },
+    "email": "moh.rosidi2610@gmail.com",
+    "root": "/home/rosidi/genre_classification",
+    "host": "rosidi-VirtualBox",
+    "username": "rosidi",
+    "executable": "/home/rosidi/anaconda3/envs/mlflow-9ad98997f01f10ca95d41cc160bcad3e8dac16f6/bin/python"
+}
