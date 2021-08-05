@@ -1,6 +1,6 @@
 # Genre Classification
 
-These are ML pipelines created as an assignment in Udacity's Machine Learning DevOps Engineer course.
+These are ML pipelines created as an exercise in Udacity's Machine Learning DevOps Engineer course.
 
 ## Project Descriptions
 
