@@ -14,11 +14,12 @@ The imported data has a parquet format which is read using Arrow. Data checking 
 
 ## How to run this project
 
-1. Install wandb library (`pip install wandb`)
-2. Create wandb account (www.wandb.ai)
-3. Get your wandb API Key (run `wandb login`, open the urls that appears in your terminal) and paste in your terminal
-4. Run the project (`mlflow run -v https://github.com/mohrosidi/genre_classification.git`)
-5. When the run is finished, open your wandb account and see the report of your project
+1. Make sure you have conda installed in your computer
+2. Install wandb library (`pip install wandb`)
+3. Create wandb account (www.wandb.ai)
+4. Get your wandb API Key (run `wandb login`, open the urls that appears in your terminal) and paste in your terminal
+5. Run the project (`mlflow run -v https://github.com/mohrosidi/genre_classification.git`)
+6. When the run is finished, open your wandb account and see the report of your project
 
 ## Sample Report from Wandb
 
